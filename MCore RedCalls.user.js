@@ -5,6 +5,8 @@
 // @description  ...
 // @author       LooneyZ
 // @match        http://digital-capital.mcore.solutions/main*
+// @updateURL    https://raw.githubusercontent.com/LooneyZ/MCore-RedCalls/master/MCore%20RedCalls.user.js
+// @downloadURL  https://raw.githubusercontent.com/LooneyZ/MCore-RedCalls/master/MCore%20RedCalls.user.js
 // @grant        none
 // ==/UserScript==
 
