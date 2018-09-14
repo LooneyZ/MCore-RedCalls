@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MCore RedCalls
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  ...
 // @author       LooneyZ
 // @match        http://digital-capital.mcore.solutions/main*
@@ -31,6 +31,10 @@
                 document.getElementsByClassName('dataExporter')[0].appendChild(d);
                 d = document.createElement('div');
                 d.id = 'loo_div_buts';
+                d.style.top = "135px";
+                d.style.position = "-webkit-sticky";
+                d.style.position = "sticky";
+                d.style.zIndex = "1";
                 document.getElementsByClassName('dataExporter')[0].appendChild(d);
             }
             else {
@@ -56,11 +60,6 @@
 
                     var callBtn = document.createElement('a');
                     callBtn.id = "loo_call_but_" + i;
-
-                    callBtn.style.top = "135px";
-                    callBtn.style.position = "-webkit-sticky";
-                    callBtn.style.position = "sticky";
-                    callBtn.style.zIndex = "1";
 
                     callBtn.innerHTML = 'Row: ' + rnum +'  Dur: ' + dur;
                     callBtn.onclick = function() {
