@@ -35,6 +35,7 @@
                 d.style.position = "-webkit-sticky";
                 d.style.position = "sticky";
                 d.style.zIndex = "1";
+				d.style.color = 'red';
                 document.getElementsByClassName('dataExporter')[0].appendChild(d);
             }
             else {
