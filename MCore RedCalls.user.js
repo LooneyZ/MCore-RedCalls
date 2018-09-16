@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MCore RedCalls
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  ...
 // @author       LooneyZ
 // @match        http://digital-capital.mcore.solutions/main*
